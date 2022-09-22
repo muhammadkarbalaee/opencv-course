@@ -11,8 +11,6 @@ cv.imshow("",blank)
 
 cv.rectangle(blank,(0,0),(250,250),(0,150,250),thickness=2)
 
-
 cv.imshow("",blank)
 
-
-cv.waitKey(0)
+cv.waitKey(0) 
