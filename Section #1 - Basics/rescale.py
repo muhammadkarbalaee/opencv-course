@@ -11,7 +11,7 @@ def rescaleFrame(frame, scale=0.75):
 
 
 image = cv.imread('../Resources/Photos/cat.jpg')
-
+ 
 resized = rescaleFrame(image,0.5)
 
 cv.imshow("",resized)
